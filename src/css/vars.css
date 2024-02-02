@@ -1,0 +1,12 @@
+:root {
+    /* FONTE */
+    --font-text: "Montserrat", sans-serif;
+    --font-heading: "Krona One", sans-serif;
+    --font-emphasis: "Sixtyfour", sans-serif;
+
+
+    /* CORES */
+    --primary-color: #0d1b2a;
+    --secondary-color: #ffd43b;
+    --white-color: #fff;
+}
