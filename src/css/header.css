@@ -24,82 +24,109 @@ body {
 }
 
 .menu .menu__home a {
-    display: inline-block;
-    position: relative;
-    color: var(--white-color);
-    text-decoration: none;
-    font-size: 16px;
-    font-family: var(--font-text);
+  display: inline-block;
+  position: relative;
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: var(--font-text);
 }
 
 .menu .menu__home a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--secondary-color);
-    transform-origin: bottom right;
-    transition: transform 0.4s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--secondary-color);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
 }
 
 .menu .menu__home a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .menu .menu__projects a {
-    display: inline-block;
-    position: relative;
-    color: var(--white-color);
-    text-decoration: none;
-    font-size: 16px;
-    font-family: var(--font-text);
+  display: inline-block;
+  position: relative;
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: var(--font-text);
 }
 
 .menu .menu__projects a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--secondary-color);
-    transform-origin: bottom right;
-    transition: transform 0.4s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--secondary-color);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
 }
 
 .menu .menu__projects a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .menu .menu__about a {
-    display: inline-block;
-    position: relative;
-    color: var(--white-color);
-    text-decoration: none;
-    font-size: 16px;
-    font-family: var(--font-text);
+  display: inline-block;
+  position: relative;
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 16 px;
+  font-family: var(--font-text);
 }
 
 .menu .menu__about a::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--secondary-color);
-    transform-origin: bottom right;
-    transition: transform 0.4s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--secondary-color);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
 }
 
 .menu .menu__about a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.menu .menu__contact a {
+  display: inline-block;
+  position: relative;
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: var(--font-text);
+}
+
+.menu .menu__contact a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--secondary-color);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+.menu .menu__contact a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
